@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^forums/board/([^/]*)$ /forums/board.php?id=$1 [L]
+RewriteRule ^forums/thread/([^/]*)$ /forums/thread.php?id=$1 [L]
+RewriteRule ^forums/create/thread/([^/]*)$ /forums/createThread.php?id=$1 [L]
+RewriteRule ^profile/([^/]*)$ /profiles/index.php?id=$1 [L]
